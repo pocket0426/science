@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.menu-card{
+    width: 200px;
+    height: 150px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    position: relative;
+    top: 255px;
+    left: 50px;
+    transition: top 0.3s ease-out;
+}
+.menu-card p{
+    width: 70px;
+    position: relative;
+    margin-top: 20px;
+    top: 20px;
+    left: 60px;
+}
+.page-documont{
+    width: 1000px;
+    height: 2000px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: 19%;
+    top: -150px;
+}
+.first-text {
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+}
+.first-img{
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+.first-img img{
+    width: 500px;
+}
+.second-text{
+    font-size: 20px;
+    position: relative;
+    top: 130px;
+    left: 20px;
+}
+.second-img{
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+.thred-text{
+    position: relative;
+    top: 170px;
+    left: 20px;
+    font-size: 20px;
+}
+.thred-img{
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+.thred-img img{
+    width: 300px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+  }
