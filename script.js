@@ -18,6 +18,6 @@ document.addEventListener("mousemove", function(event) {
                  shape.style.top = scrollTop + "px";
                  isScrolling = false;
              });
-         }, 100); // 0.3초 지연
+         }, 80); // 0.3초 지연
      }
  });
